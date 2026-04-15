@@ -1,0 +1,31 @@
+* {
+  box-sizing: border-box;
+}
+
+body {
+    background-color: #acacac;
+    font-family: helvetica, Verdana, Arial;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    height: 100vh; /* View Height */
+}
+
+.container {
+  display: flex;
+  background-color: rgb(113, 146, 143);
+  padding: 40px;
+  border-radius: 5px;
+  width: 70%;
+  gap: 20px;
+  justify-content: space-between;
+}
+
+.item {
+  background-color: rgb(9, 150, 150);
+  text-align: center;
+  padding: 20px;
+  width: 100px;
+  height: 100px;
+  border-radius: 5px;
+}
