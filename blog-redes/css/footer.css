@@ -5,9 +5,9 @@
 
 .footer-container {
   display: flex;
+  flex-direction: row;
   justify-content: space-between;
   align-items: center;
-
   max-width: var(--max-width-content);
   margin: 0 auto;
 }
@@ -22,8 +22,10 @@
 
 .footer-nav {
   display: flex;
+  flex-direction: row;
   gap: 2rem;
   flex-wrap: wrap;
+  justify-content: center;
 }
 
 .footer-nav a {
@@ -31,6 +33,7 @@
   text-decoration: none;
   font-size: 0.875rem;
   font-weight: 500;
+  transition: color 0.2s;
 }
 
 .footer-nav a:hover {

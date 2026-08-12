@@ -8,8 +8,8 @@
 
 body {
   font-family: "Inter", sans-serif;
-  background: #0e0e0e;
-  color: #ffffff;
+  background: var(--color-bg);
+  color: var(--color-text);
   min-height: 100vh;
 }
 
@@ -22,19 +22,21 @@ body {
 
   --nav-height: 64px;
   --nav-padding: 2rem;
-  --base-font: "Inter", sans-serif;
-  --max-width-nav: 1400px;
-  --max-width-content: 1280px;
-  --border-radius: 0.5rem;
 
-  --color-border: rgba(72, 72, 71, 0.3);
+  /* Prática 02 */
+  --base-font:
+    "Inter", sans-serif; /* ← NOVO: define a fonte base para todas as seções */
+  --max-width-nav: 1400px; /* ← NOVO: largura máxima da barra de navegação */
+  --max-width-content: 1280px; /* ← NOVO: largura máxima das seções de conteúdo */
+  --border-radius: 0.5rem; /* ← NOVO: borda arredondada para botões e elementos de destaque */
+
+  --color-border: rgba(
+    72,
+    72,
+    71,
+    0.3
+  ); /* ← NOVO: cor de borda suave para elementos como botões e cards */
   --color-divisor: rgba(72, 72, 71, 0.15);
-}
-
-body {
-  font-family: "Inter", sans-serif;
-  background: var(--color-bg);
-  color: var(--color-text);
 }
 
 .site-header {
